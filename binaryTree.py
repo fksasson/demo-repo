@@ -17,8 +17,8 @@ def buildBinaryTree():
     Returns root node.
     '''
 
-    value = input('choose value (-1 to exit): ')
-    if value == '-1':
+    value = input('choose value (- to exit): ')
+    if value == '-':
         return None
 
     print(f'value chosen: {value}')
